@@ -1,0 +1,267 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.header {
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(
+270deg, aqua, rgb(197, 243, 197));
+}
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    width:100%;
+    padding: 0;
+}
+.header__navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__icon {
+    font-size: 40px;
+    padding: 20px;
+    color: blue;
+}
+
+.navbar__heading {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.navbar__name {
+    font-size: 24px;
+    color: white;
+}
+h1 {
+    display: block;
+    
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.navbar__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+.navbar__menu-btn--out {
+    width: 90px;
+}
+.navbar__menu-btn {
+    height: 20px;
+    padding: 0 16px;
+    margin: 4px 0;
+    color: #fff;
+    background-color: rgb(162, 98, 221);
+    border-radius: 8px;
+    border: none;
+}
+.navbar__menu-btn--home {
+    width: 120px;
+}
+.navbar__menu-btn {
+    height: 20px;
+    padding: 0 16px;
+    margin: 4px 0;
+    color: #fff;
+    background-color: rgb(162, 98, 221);
+    border-radius: 8px;
+    border: none;
+}
+.navbar__menu-user {
+    font-size: 14px;
+    color: #000;
+}
+.container {
+    padding-top: 80px;
+}
+.container__schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.schedule__navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.schedule__navbar-item {
+    height: 40px;
+    background-color: rgb(165, 126, 233);
+    border-radius: 3px;
+    margin: 0 30px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.schedule__navbar-item-lable {
+    font-size: 16px;
+    color: #fff;
+}
+.select-class {
+    padding: 3px 6px;
+    margin-left: 6px;
+    border-radius: 3px;
+}
+
+label {
+    cursor: default;
+}
+.schedule__navbar-btn {
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f87086;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.schedule__navbar-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.schedule__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.schedule__heading {
+    font-size: 24px;
+    margin-top: 30px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.table {
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.table th {
+    border: 1px solid #000;
+    padding: 6px;
+    font-size: 14px;
+    color: #000;
+    border-collapse: collapse;
+}
+.table td {
+    border: 1px solid #000;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table__day {
+    background-color: aqua;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.table__input {
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+.tb_distance{
+    width: 40px;
+}
+.tb_distance1{
+    width: 200px;
+}
+.tb_distance2{
+    width: 100px;
+}
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    
+    font-size: 14px;
+    margin: 5px 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
